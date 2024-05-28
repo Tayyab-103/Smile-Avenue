@@ -6,7 +6,7 @@
   flex-direction: column;
   width: 100%;
   gap: 2rem;
-  background: #ffccbc;
+  background: #000000;
 }
 
 .profile_details {
@@ -18,8 +18,8 @@
   width: 400px;
   height: 500px;
   padding: 15px 20px;
-  backdrop-filter: blur(6px);
-  background-color: #ffffff4a;
+  /* backdrop-filter: blur(6px); */
+  background-color: #E3C44D;
   border-radius: 6px;
 }
 .profile_details img {
@@ -54,8 +54,13 @@
   margin-bottom: 10px;
 }
 
+.profile_section_container h2 {
+  color: #E3C44D;
+}
+
 .profile_section_container h2 span {
   margin-right: 9px;
+  color: #E3C44D;
 }
 
 @media screen and (min-width: 1024px) {

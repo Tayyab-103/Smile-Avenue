@@ -27,12 +27,12 @@ const About = () => {
               </p>
               <p className="about_long_descrp">{about_long_des_data.text}</p>
               <div className="about_align_btn">
-                {/* <Link
+                <Link
                   to={"/dental-clinic/team"}
                   style={{ textDecoration: "none", color: "#fff" }}
-                > */}
+                >
                   <button className="more_info_btn">Read More</button>
-                {/* </Link> */}
+                </Link>
               </div>
             </div>
             <div className="about_image">
