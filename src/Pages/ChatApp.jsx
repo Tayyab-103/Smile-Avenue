@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import site_c from '../assets/site_con.jpg';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 // import { allUsersRoute } from '../utils/APIRoutes';
 // import ChatContacts from '../Components/ChatContacts';
 function ChatApp() {
-  const navigate = useNavigate();
-  const [contacts, setContacts] = useState();
-  const [currentUser, setCurrentUser] = useState(undefined);
+  // const navigate = useNavigate();
+  // const [contacts, setContacts] = useState();
+  // const [currentUser, setCurrentUser] = useState(undefined);
   // useEffect(() => {
   //   if (!localStorage.getItem('chat-app-user')) {
   //     navigate('/login_user');

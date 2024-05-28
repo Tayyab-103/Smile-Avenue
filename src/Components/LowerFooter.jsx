@@ -96,7 +96,7 @@ function LowerFooter() {
                 <img src={data.rp_img} alt="" />
                 <div className="rp_compile_container">
                   <p>{data.rp_text}</p>
-                  <a href="#">{data.rp_btn}</a>
+                  <a href="/">{data.rp_btn}</a>
                 </div>
               </div>
             );
